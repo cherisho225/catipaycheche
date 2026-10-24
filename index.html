@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderly - Travel the World</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-name">Wanderly</span>
+                    <span class="brand-tagline">TRAVEL THE WORLD</span>
+                </div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Destinations</a>
+                <a href="#">Tours</a>
+                <a href="#">Flights</a>
+                <a href="#">Hotels</a>
+                <a href="#">Blog</a>
+                <a href="#">About Us</a>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="support-box">
+                    <div class="phone-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="support-text">
+                        <span class="support-label">Need Help?</span>
+                        <span class="support-number">+1 234 567 8900</span>
+                    </div>
+                </div>
+                <div class="user-profile">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 1: Hero & Booking Widget -->
+    <main class="hero-section">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fa-solid fa-plane"></i>
+                <span>EXPLORE. DREAM. DISCOVER.</span>
+            </div>
+
+            <h1 class="hero-title">
+                Discover Amazing<br>
+                <span class="script-title">Places with Us</span>
+            </h1>
+
+            <p class="hero-description">
+                Find the best tours, hotels and flights: everything you need for the perfect trip.
+            </p>
+
+            <button class="explore-btn">
+                <span>Explore Now</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+
+        <div class="booking-widget-container">
+            <div class="booking-card">
+                <div class="booking-tabs">
+                    <button class="tab-btn active" data-tab="flights"><i class="fa-solid fa-plane"></i> Flights</button>
+                    <button class="tab-btn" data-tab="hotels"><i class="fa-solid fa-hotel"></i> Hotels</button>
+                    <button class="tab-btn" data-tab="tours"><i class="fa-solid fa-binoculars"></i> Tours</button>
+                    <button class="tab-btn" data-tab="packages"><i class="fa-solid fa-gift"></i> Packages</button>
+                </div>
+
+                <div class="tab-content active" id="flights-content">
+                    <div class="search-form-grid-extended">
+                        <div class="form-group">
+                            <label>From</label>
+                            <div class="input-with-icon"><i class="fa-solid fa-plane-departure"></i><input type="text" value="New York (NYC)"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>To</label>
+                            <div class="input-with-icon"><i class="fa-solid fa-location-dot"></i><input type="text" value="Where to?"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>Depart</label>
+                            <div class="input-with-icon"><i class="fa-regular fa-calendar"></i><input type="text" value="May 20, 2024"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>Return</label>
+                            <div class="input-with-icon"><i class="fa-regular fa-calendar"></i><input type="text" value="May 27, 2024"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>Travelers</label>
+                            <div class="input-with-icon"><i class="fa-solid fa-user"></i><input type="text" value="2 Adults, 1 Child"></div>
+                        </div>
+                        <div class="form-submit">
+                            <button class="search-btn">Search <i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- SECTION 2: Guarantee Features -->
+    <section class="features-section">
+        <div class="features-container">
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fa-solid fa-tag"></i></div>
+                <div class="feature-text">
+                    <h3>Best Price Guarantee</h3>
+                    <p>We ensure you get the best deals always[cite: 2].</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fa-solid fa-headset"></i></div>
+                <div class="feature-text">
+                    <h3>24/7 Customer Support</h3>
+                    <p>We're here to help you anytime, anywhere[cite: 2].</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="feature-text">
+                    <h3>Secure Bookings</h3>
+                    <p>Your data and payments are 100% safe with us[cite: 2].</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="feature-text">
+                    <h3>Handpicked Experiences</h3>
+                    <p>Curated tours and hotels for unforgettable trips[cite: 2].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Popular Destinations -->
+    <section class="destinations-section">
+        <div class="destinations-header">
+            <div class="title-with-flight">
+                <h2>Popular Destinations</h2>
+                <i class="fa-solid fa-plane flight-path-icon"></i>
+            </div>
+            <button class="view-all-btn">View All Destinations <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="destinations-grid">
+            <div class="destination-card" style="background-image: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%, transparent 100%), url('https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&q=80&w=800');">
+                <span class="card-badge">Bestseller</span>
+                <div class="card-content">
+                    <div class="card-info"><h3>Thailand</h3><p><i class="fa-solid fa-location-dot"></i> Phuket</p></div>
+                    <div class="card-price"><span class="from-label">From</span><span class="price-value">$699</span></div>
+                </div>
+            </div>
+            <div class="destination-card" style="background-image: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%, transparent 100%), url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800');">
+                <span class="card-badge popular">Popular</span>
+                <div class="card-content">
+                    <div class="card-info"><h3>France</h3><p><i class="fa-solid fa-location-dot"></i> Paris</p></div>
+                    <div class="card-price"><span class="from-label">From</span><span class="price-value">$799</span></div>
+                </div>
+            </div>
+            <div class="destination-card" style="background-image: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%, transparent 100%), url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800');">
+                <span class="card-badge trending">Trending</span>
+                <div class="card-content">
+                    <div class="card-info"><h3>Bali, Indonesia</h3><p><i class="fa-solid fa-location-dot"></i> Ubud</p></div>
+                    <div class="card-price"><span class="from-label">From</span><span class="price-value">$599</span></div>
+                </div>
+            </div>
+            <div class="destination-card" style="background-image: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%, transparent 100%), url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800');">
+                <span class="card-badge">Bestseller</span>
+                <div class="card-content">
+                    <div class="card-info"><h3>Dubai, UAE</h3><p><i class="fa-solid fa-location-dot"></i> Dubai</p></div>
+                    <div class="card-price"><span class="from-label">From</span><span class="price-value">$899</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: Why Choose Wanderly? (Matching Screenshot) -->
+    <section class="why-choose-section">
+        <div class="why-choose-container">
+            <!-- Left Info Grid -->
+            <div class="why-choose-content">
+                <h2 class="why-choose-title">Why Choose <span class="script-brand">Wanderly?</span></h2>
+                <div class="title-underline"></div>
+
+                <div class="why-grid">
+                    <div class="why-item">
+                        <div class="why-icon-circle"><i class="fa-solid fa-globe"></i></div>
+                        <div class="why-text">
+                            <h4>Wide Range of Choices</h4>
+                            <p>Choose from thousands of flights, hotels and tours worldwide[cite: 3, 4].</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon-circle"><i class="fa-solid fa-thumbs-up"></i></div>
+                        <div class="why-text">
+                            <h4>Trusted by Travelers</h4>
+                            <p>Join millions of happy travelers around the world[cite: 3, 4].</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon-circle"><i class="fa-solid fa-wallet"></i></div>
+                        <div class="why-text">
+                            <h4>Flexible & Easy Booking</h4>
+                            <p>Book with ease and adjust your plans if needed[cite: 3, 4].</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon-circle"><i class="fa-solid fa-percent"></i></div>
+                        <div class="why-text">
+                            <h4>Exclusive Deals</h4>
+                            <p>Get access to exclusive discounts and special offers[cite: 3, 4].</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Beach Adventure Card -->
+            <div class="adventure-card" style="background-image: linear-gradient(to right, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.1) 60%, transparent 100%), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1000');">
+                <div class="adventure-content">
+                    <span class="lets-go-tag">LET'S GO!</span>
+                    <h3>Your Next Adventure Awaits!</h3>
+                    <p>Discover breathtaking places and create unforgettable memories[cite: 3, 4].</p>
+                    <button class="plan-trip-btn">
+                        Plan Your Trip <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: Newsletter Subscription Bar -->
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <div class="newsletter-info">
+                <div class="paper-plane-icon">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </div>
+                <div class="newsletter-text">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <p>Get the latest travel deals and inspiration straight to your inbox[cite: 3, 4].</p>
+                </div>
+            </div>
+
+            <div class="newsletter-form-wrapper">
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+
+                <div class="social-divider"></div>
+
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
